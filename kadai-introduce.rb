@@ -6,10 +6,10 @@
 
 family_name = "田中"
 first_name = "太郎"
-age = {
-  child: 10,
-  adult: 25,
-  old: 70
-}
+age_child = 10
+age_adult = 25
+age_old = 70
 
-puts family_name + first_name + "です。" + age[:old].to_s + "歳です。"
+puts family_name + first_name + "です。" + age_child.to_s + "歳です。"
+puts family_name + first_name + "です。" + age_adult.to_s + "歳です。"
+puts family_name + first_name + "です。" + age_old.to_s + "歳です。"
